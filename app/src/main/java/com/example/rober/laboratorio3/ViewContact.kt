@@ -12,12 +12,15 @@ import kotlinx.android.synthetic.main.activity_ver_contacto.*
 import android.content.pm.PackageManager
 import android.Manifest.permission
 import android.Manifest.permission.CALL_PHONE
+import android.database.sqlite.SQLiteDatabase
 import android.net.Uri
 import android.support.v4.app.ActivityCompat
-
+import com.example.rober.laboratorio3.Entity.User
+import com.example.rober.laboratorio3.Utilities.Utilities
 
 
 class ViewContact : AppCompatActivity() {
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -55,7 +58,13 @@ class ViewContact : AppCompatActivity() {
         }
 
 
+
+
     }
+
+
+
+
 
     fun back(view: View) {
         val intent = Intent(this, MainActivity::class.java)

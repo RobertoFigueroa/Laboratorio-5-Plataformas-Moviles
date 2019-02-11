@@ -19,13 +19,14 @@
             </intent-filter>
         </activity>
         <activity android:name=".CreateContact">
+
         </activity>
         <activity android:name=".ViewContact">
         </activity>
+
         <activity android:name=".SendMail">
         </activity>
-        <provider android:name="StudentsProvider"
-                  android:authorities="com.example.rober.laboratorio3.StudentsProvider"/>
+
     </application>
 
 </manifest>
